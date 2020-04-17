@@ -28,7 +28,7 @@
                     <label>Diabetes:</label><br>
                     
                     <label>Other Conditions:</label>
-                    <input type="text" id = "other_conditions" name="other_conditions"><br>
+                    <input type="text" id = "other_conditions" min="0" max="250" name="other_conditions"><br>
 
                 </fieldset>
 ';
@@ -68,7 +68,7 @@
     ';
 */
     echo '
-        <legend>Submit Your Membership</legend>
+        <legend>Submit</legend>
             <div style="text-align: center;" id="buttons" class="pageButtons">
                 <label>&nbsp;</label>
                 <input type="submit" value="Submit">
