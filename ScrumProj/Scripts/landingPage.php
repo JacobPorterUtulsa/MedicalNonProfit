@@ -11,10 +11,10 @@
                 <legend>General Patient Information</legend>
             
                     <label>First Name:</label>
-                    <input type="text" id = "first_name" name="first_name" min="1" required><br>
+                    <input type="text" id = "first_name" name="first_name" min="2" required><br>
                     
                     <label>Last Name:</label>
-                    <input type="text" id = "last_name" name="last_name" min="1" required><br>
+                    <input type="text" id = "last_name" name="last_name" min="2" required><br>
                     
                     <label>Gender:</label>
                     <input type="text" id = "gender" name="gender" min="1" required><br>
@@ -23,7 +23,7 @@
                     <input type="date" id = "dob" name="dob" required><br>
                     
                     <label>Genetics:</label>
-                    <input type="text" id = "genetics" name="genetics" min="1" required><br>
+                    <input type="text" id = "genetics" name="genetics" min="500" required><br>
                     
                     <label>Diabetes:</label><br>
                     
